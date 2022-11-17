@@ -64,11 +64,13 @@ body {
 	position: absolute;
 	right: 300px;
 	color: red;
+	text-shadow: 20px -7px 7px #77325a;
 }
 .name2 {
 	position: absolute;
 	left: 300px;
 	color: blueviolet;
+	text-shadow: 20px -7px 7px #77325a;
 }
 
 @keyframes animate {
