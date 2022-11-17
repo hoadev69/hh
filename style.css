@@ -11,6 +11,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	transition: all;
 	display: flex;
 	flex-direction: column;
 }
@@ -57,6 +58,8 @@ body {
 .name {
 	position: absolute;
 	font-size: 69px;
+	font-weight: 600;
+	transition: all;
 	animation: animate 1.2s infinite;
 }
 
