@@ -2,7 +2,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: pink;
+	background: #000;
 }
 
 .box {
