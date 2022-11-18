@@ -12,7 +12,7 @@
   height: 100%;
   padding: 0;
   margin: 0;
-  background: #000;
+  background: var(--bg-dark);
 }
 canvas {
   position: absolute;
@@ -32,6 +32,15 @@ canvas {
   <div class="play">
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/02krb5JiLLiLxv6uLEMrIZ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   </div>
+  <div class="changer-bg">
+    <label class="change-background">
+      <input type="checkbox" name="change-background" id="">
+    </label>
+  </div>
+  <!-- <div class="convert">
+    <div class="colorblack " id="black"></div>
+    <div class="colorwhite " id="white"></div>
+  </div> -->
 <script>
 var settings = {
   particles: {
