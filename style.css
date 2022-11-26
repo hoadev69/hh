@@ -11,7 +11,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* background: #000; */
+	cursor: url("./chuot.png"), auto;
 }
 
 .box {
@@ -59,8 +59,8 @@ body {
 
 .play {
 	position: fixed;
-	right: 18px;
-	bottom: 18px;
+	right: 16px;
+	bottom: 48px;
 	width: 500px;
 }
 
@@ -125,6 +125,7 @@ body {
 	position: absolute;
 	bottom: 18px;
 	left: 18px;
+	display: none;
 }
 
 .change-background {
