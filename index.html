@@ -7,12 +7,19 @@
   <META NAME="Keywords" CONTENT="">
   <META NAME="Description" CONTENT="">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="./PinyonScript-Regular.ttf">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
   <style>
   html, body {
   height: 100%;
   padding: 0;
   margin: 0;
-  background: var(--bg-dark);
+  /* background: var(--bg-dark); */
+  background-image: url(./background-noel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 canvas {
   position: absolute;
@@ -22,6 +29,17 @@ canvas {
   </style>
  </HEAD>
  <BODY>
+  <img src="./topleft.png" alt="" class="topleft">
+  <img src="./topright.png" alt="" class="topright">
+  <label class="leftbt">
+    <input type="checkbox" class="checkBox" name="checkBox" id="">
+    <img src="./bottomleft.png" id="EasterEgg" alt="" >
+  </label>
+  <label class="gift">
+    <input type="checkbox" name="gift-box" id="" class="gift-box">
+    <i class="fa-solid fa-gift gift-icon rung"></i>
+  </label>
+  <div class="bottom"></div>
   <div class="box">
     <canvas id="pinkboard"></canvas>
   </div>
@@ -37,10 +55,36 @@ canvas {
       <input type="checkbox" name="change-background" id="">
     </label>
   </div>
+  <div class="modal">
+    <div class="modal__form">
+      <div class="modal__form-heading">
+        <h class="modal__form-header">Gửi đến em</h>
+        <!-- <i class="modal__form-icon fa-solid fa-xmark"></i> -->
+      </div>
+      <div class="modal__form-content">
+        <p class="modal__form-text">
+          Gửi MILO! <br>
+          <br>
+          Chúng ta đã cùng nhau trải qua rất nhiều thăng trầm trong cuộc sống, chấp nhận yêu xa thiếu thốn đủ thứ. Học cách chấp nhận những yếu điểm điểm của nhau, học cách quên đi những điều ta đã từng làm nhau đau. Cùng nhau hàn gắn qua những lần tan vỡ mà tưởng chừng đó đã là dấu chấm hết cho 1 mối tình. Vượt qua những rào cản từ lớn đến bé, mình vẫn tin tưởng nhau, vẫn muốn ở bên nhau. Nhiêu đó thôi cũng đã đủ minh chứng chúng ta xứng đáng ở bên nhau nhiều đến như thế nào rồi đúng không.
+          <br>
+          <br>
+          Mình quay lại với nhau em nhé! Làm người yêu của anh 1 lần nữa nha bé. Anh đợi câu trả lời từ em.
+        </p>
+        <div class="feedback">
+          <h class="feedback__header">Nhắn tin cho anh nhé!</h>
+          <a href="https://www.facebook.com/trung6996/">
+            <i class="fb-icon fa-brands rung fa-facebook-messenger"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- <div class="convert">
     <div class="colorblack " id="black"></div>
     <div class="colorwhite " id="white"></div>
   </div> -->
+<!-- <audio src="./way-back-home.mp3" autoplay loop class="playmusic"></audio> -->
+  <script type="text/javascript" src="./script.js"></script>
 <script>
 var settings = {
   particles: {
