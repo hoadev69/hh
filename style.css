@@ -28,8 +28,8 @@ body {
 #pinkboard {
 	position: relative;
 	margin: auto;
-	height: 740px;
-	width: 740px;
+	height: 600px;
+	width: px;
 	animation: animate 1.2s infinite;
 }
 
@@ -303,6 +303,7 @@ body:has(input[name="gift-box"]:checked) .modal {
 }
 
 .feedback {
+	display: none;
 	position: absolute;
 	bottom: 15%;
 	right: 50%;
