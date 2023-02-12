@@ -28,8 +28,8 @@ body {
 #pinkboard {
 	position: relative;
 	margin: auto;
-	height: 600px;
-	width: 600px;
+	height: 540px;
+	width: 540px;
 	animation: animate 1.2s infinite;
 }
 
