@@ -303,8 +303,8 @@ body:has(input[name="gift-box"]:checked) .modal {
 }
 
 .feedback {
-	display: none;
 	position: absolute;
+	display: none;
 	bottom: 15%;
 	right: 50%;
 	transform: translateX(50%);
